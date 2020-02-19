@@ -22,12 +22,12 @@ function! airline#themes#kyle#refresh()
   let s:base3   = {'t': s:ansi_colors ?  15 : (s:tty ? '7' : 230), 'g': '#f8f6f2'}
   let s:yellow  = {'t': s:ansi_colors ?   3 : (s:tty ? '3' : 136), 'g': '#bb8801'}
   let s:orange  = {'t': s:ansi_colors ?   9 : (s:tty ? '1' : 166), 'g': '#a45431'}
-  let s:red     = {'t': s:ansi_colors ?   1 : (s:tty ? '1' : 160), 'g': '#b75d4e'}
+  let s:red     = {'t': s:ansi_colors ?   2 : (s:tty ? '1' : 160), 'g': '#b75d4e'}
   let s:magenta = {'t': s:ansi_colors ?   5 : (s:tty ? '5' : 125), 'g': '#9d5374'}
   let s:violet  = {'t': s:ansi_colors ?  13 : (s:tty ? '5' : 61 ), 'g': '#6165a5'}
   let s:blue    = {'t': s:ansi_colors ?   4 : (s:tty ? '4' : 33 ), 'g': '#4a8bae'}
   let s:cyan    = {'t': s:ansi_colors ?   6 : (s:tty ? '6' : 37 ), 'g': '#698d69'}
-  let s:green   = {'t': s:ansi_colors ?   2 : (s:tty ? '2' : 64 ), 'g': '#9f9300'}
+  let s:green   = {'t': s:ansi_colors ?   1 : (s:tty ? '2' : 64 ), 'g': '#9f9300'}
 
   """"""""""""""""""""""""""""""""""""""""""""""""
   " Simple mappings
@@ -184,7 +184,7 @@ function! airline#themes#kyle#refresh()
 
   let g:airline#themes#kyle#palette.replace_modified.airline_warning =
         \ g:airline#themes#kyle#palette.normal.airline_warning
-  
+
   let g:airline#themes#kyle#palette.replace_modified.airline_error =
         \ g:airline#themes#kyle#palette.normal.airline_error
 
